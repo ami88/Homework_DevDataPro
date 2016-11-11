@@ -1,0 +1,28 @@
+Documentation for my Shiny application
+======================================
+
+This is a very simple application to play with the normal distribution. It does not need any additional package to run it, other than shiny. I assume that the user is using RStudio.
+
+* How to run it?
+
+As any Shiny app. Open the ui.R and server.R files in your RStudio enviroment and click in the "Reload App" buttom.
+
+* What you will see?
+
+A window with a sidebar Panel and a main Panel.
+
+- The sidebar Panel controls the input.
+- The main Panel displays the output.
+
+The attached presentation myPresentation.md contains info about the specific input and output. I copy and paste here:
+
+## Inputs
+- Mean: A slide to chose the mean of the distribution. Range: -90,90
+- Std Dev: A slide to chose the standard deviation of the distribution. Range: 0.1,20
+- Two checkboxs to decide whether one wants to see label in the axes
+- X0: Value at which I want to evaluate the probability < or >.
+- A last checkbox to decide whether I want lower or upper tail 
+## Outputs
+- A plot of the distribution (black)
+- A vertical line (red) at the value X0 overplotted
+- The probability
